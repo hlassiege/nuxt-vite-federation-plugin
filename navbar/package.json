@@ -1,0 +1,20 @@
+{
+  "name": "navbar",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --port 5001 --strictPort",
+    "serve": "vite preview --port 5001 --strictPort",
+    "build": "vite build",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "^1.1.9",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/compiler-sfc": "^3.2.37",
+    "vite": "^3.0.9"
+  }
+}

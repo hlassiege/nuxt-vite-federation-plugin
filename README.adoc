@@ -1,0 +1,23 @@
+= Attempt to use vite-federation-plugin with Nuxt
+
+== Vite Module Federation
+
+https://github.com/originjs/vite-plugin-federation
+
+navbar is the remote component we want to expose.
+
+in order to serve it :
+
+    npm install
+    npm run build
+    npm run serve
+
+It will be exposed on http://localhost:5001/assets/remoteEntry.js
+
+
+app-front is the nuxt application that try to use the remote component.
+
+    npm install
+    npm run dev
+
+
