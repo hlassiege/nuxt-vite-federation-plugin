@@ -23,7 +23,7 @@ export default defineConfig({
     sourcemap: true,
     rollupOptions: {
       output: {
-        format: 'system',
+        format: 'esm',
         minifyInternalExports: false
       }
     }
